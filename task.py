@@ -27,21 +27,17 @@
 #
 # print(high('man i need a taxi up to ubud'))
 
-# def two_sum(numbers, target):
-#     required = {}
-#     for i in range(len(numbers)):
-#         if target - numbers[i] in required:
-#             return [required[target - numbers[i]],i]
-#         else:
-#             required[numbers[i]]=i
-#
-#
-# print(two_sum([1234,5678,9012], 14690))
 
-# land_perimeter(["OOOOXO", "XOXOOX", "XXOXOX", "XOXOOO", "OOOOOO", "OOOXOO", "OOXXOO"]), 40
-#
-# (land_perimeter(["XXXXXOOO", "OOXOOOOO", "OOOOOOXO", "XXXOOOXO", "OXOXXOOX"]) 40
+def two_sum(numbers, target):
+    required = {}
+    for i in range(len(numbers)):
+        if target - numbers[i] in required:
+            return [required[target - numbers[i]],i]
+        else:
+            required[numbers[i]]=i
 
+
+print(two_sum([1234,5678,9012], 14690))
 
 
 
